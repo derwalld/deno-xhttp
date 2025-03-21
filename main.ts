@@ -2,7 +2,7 @@
 import { serve } from "https://deno.land/std/http/server.ts";
 
 // Environment variables with TypeScript typing
-const UUID: string = Deno.env.get("UUID") || "0cf85927-2c71-4e87-9df3-b1eb7d5a9e1b";
+const UUID: string = Deno.env.get("UUID") || "b29d5bf8-2a27-4f92-a6f4-53d1558e6ee1";
 const AUTO_ACCESS: boolean = Deno.env.get("AUTO_ACCESS") === "true";
 const SUB_PATH: string = Deno.env.get("SUB_PATH") || "sub";
 const XPATH: string = Deno.env.get("XPATH") || "xhttp";
